@@ -1,0 +1,3 @@
+(function(O){
+	if(typeof O.assign!=='function'){O.assign=function(a){var p,e,o=a,i=0,m=arguments,l=m.length,f=this.prototype.hasOwnProperty;while(++i<l){e=m[i];for(p in e){if(f.call(e,p)){o[p]=e[p]}}};return o}}
+})(Object);
